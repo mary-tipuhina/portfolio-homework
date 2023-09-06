@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-inner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecdddd;
+    padding: 5px;
+}
+
+.face {
+    width: auto;
+    border-radius: 80px;
+    margin: 5px;
+}
+
+.photo {
+    width: 142,5px;
+    height: 190px;
+    display: flex;
+}
+
+.info {
+    padding: 37px;
+    font-size: 19px;
+}
+
+.connect__button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 28px;
+    background-color: #ac8989;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+i {
+    margin: 10px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 50%;
+}
+
+.about-me {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.experience {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.place {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.language {
+    background-color: #ecdddd;
+    margin: 10px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.container-skills {
+    display: flex;
+    width: 30%;
+}
+
+p {
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 15px 0px;
+}
+
+.my-skills {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.skill {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 30px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {
+    width: 50%; 
+    background-color: green;
+} 
+
+.css {
+    width: 40%; 
+    background-color: green;
+} 
+
+.junior {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    text-align: right;
+    color: gray;
+}
+
+.ability {
+    margin-bottom: 0;
+}
+
+.line { 
+    border-left: 5px solid #ac8989; /* Параметры линии */ 
+    margin-left: 10px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+   }
+
+ .english, .russian, .turkish {
+    display: flex;
+    width: 100%;
+ }
+
+.mar {
+    margin-right: 23px;
+}
+
+.level {
+    margin-right: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+.name {
+    margin: 0;
+    color: gray;
+}
